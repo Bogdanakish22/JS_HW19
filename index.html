@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- завдання 1 -->
+    <form>
+      <p>Choose a color:</p>
+      <label>
+        <input type="radio" name="color" value="red" checked />
+        Red
+      </label>
+      <label>
+        <input type="radio" name="color" value="white" />
+        White
+      </label>
+      <label>
+        <input type="radio" name="color" value="green" />
+        Green
+      </label>
+    </form>
+    <script src="color-change.js"></script>
+    <!-- завдання 2 -->
+    <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+    <h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
+
+    <script src="name-input.js"></script>
+    <!-- завдання 3 -->
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символів"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="validation.js"></script>
+    <!-- завдання 4 -->
+    <input id="font-size-control" type="range" min="10" max="100" value="16" />
+    <br />
+    <span id="text">Абракадабра!</span>
+
+    <script src="font-size.js"></script>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
